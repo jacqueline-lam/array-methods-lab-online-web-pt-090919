@@ -5,10 +5,11 @@ end
 
 def using_sort(array)
   new_array = array.sort
+  #or `array.sort!`
 end
 
 def using_reverse(array)
-
+  array.reverse!
 end
 
 def using_first(array)
